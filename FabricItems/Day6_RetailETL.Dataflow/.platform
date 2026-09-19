@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Day6_RetailETL"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a62ad60e-7e1a-b1cd-4919-32aefbfeb12d"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Day6_RetailETL",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "Orders": {
+      "queryId": "2eae8124-d70b-4422-a6bb-1311c9d55188",
+      "queryName": "Orders",
+      "loadEnabled": false
+    },
+    "Products": {
+      "queryId": "234a7a85-5bc8-4e2c-9b19-70426a18ae33",
+      "queryName": "Products"
+    },
+    "Orders_completed_only": {
+      "queryId": "9a5403b2-b06b-43d3-a431-d226e9ff64ab",
+      "queryName": "Orders_completed_only",
+      "loadEnabled": false
+    },
+    "Category_summary": {
+      "queryId": "c62d8165-1a65-4fc4-8f7d-2aaaab8b6ab2",
+      "queryName": "Category_summary",
+      "loadEnabled": false
+    },
+    "Orders_DataDestination": {
+      "queryId": "af8a16a1-cc3c-4c18-a133-90ea5f16bc47",
+      "queryName": "Orders_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Category_summary_DataDestination": {
+      "queryId": "e9800d7e-f996-424e-b5b6-9035c925d501",
+      "queryName": "Category_summary_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Orders_completed_only_DataDestination": {
+      "queryId": "80058735-d389-4219-8ece-de72eb0704cc",
+      "queryName": "Orders_completed_only_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"7bd39345-adc9-415f-81d5-65fa4f268bbe\",\"DatasourceId\":\"ba2045c0-26ca-46f2-a9e7-add0c953e251\"}"
+    }
+  ]
+}
